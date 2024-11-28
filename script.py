@@ -3,6 +3,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 from sklearn.datasets import fetch_california_housing
 from sklearn.metrics import r2_score
+from sklearn.datasets import load_digits
+from sklearn.metrics import accuracy_score
 from sklearn.neighbors import KNeighborsRegressor
 from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LinearRegression
