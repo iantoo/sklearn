@@ -1,6 +1,6 @@
 import pandas as pd
 import numpy as np
-import matplotlib as plt
+import matplotlib.pyplot as plt
 from sklearn.datasets import load_digits
 from sklearn.metrics import accuracy_score
 from sklearn.neighbors import KNeighborsRegressor
