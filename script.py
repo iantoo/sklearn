@@ -18,6 +18,7 @@ mod = KNeighborsRegressor()
 modn = GridSearchCV(
     estimator=mod,
     param_grid={'n_neighbors': [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]}
+    refit=True
 )
 modn.fit(X_train, y_train)
 pd.DataFrame(modn.cv_results_)
